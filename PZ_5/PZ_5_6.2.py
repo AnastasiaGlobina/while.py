@@ -8,4 +8,6 @@ def Digits(numbers):
         mas.append(num%10*10 + num//10)
     return mas
 numbers = [12, 45, 67, 90, 23]
-print(Digits(numbers))
+print( "Исходный список:  ", numbers )
+result = Digits(numbers)
+print( "Итоговый список:  ", result )

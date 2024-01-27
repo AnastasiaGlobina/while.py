@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Clon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/while.py" vcs="Git" />
   </component>
 </project>

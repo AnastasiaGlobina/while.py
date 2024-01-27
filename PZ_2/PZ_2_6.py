@@ -1,7 +1,4 @@
 # Преобразование числа L в сантиметрах в метры (1м = 100см)
-number = int(input("Введите число:  "))
-if number < 100 :
-    print("Число меньше 100")
-else:
-    l = number // 100
-print("Вывод", l, "м")
+number = int(input ("Введите число:"))
+number_1 = number//100
+print("****"Вывод", number_1 ,"м"****")
