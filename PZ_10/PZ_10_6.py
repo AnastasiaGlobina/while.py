@@ -10,6 +10,8 @@ BukMarket= {'Пушкин','Достоевский','Маяковский'}
 Galeria = {'Чехов','Тютчев','Пушкин'}
 books = {'Грибоедов','Маяковский'}
 shops = {'Masgistr','DomKnigi','BukMarket','Galeria'}
+#с помощью лен!
+
 av_shops = []
 for shop in shops:
     if not books.issubset(locals()[shop]):
