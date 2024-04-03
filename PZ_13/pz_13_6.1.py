@@ -1,10 +1,11 @@
 #1. В матрице элементы первого столбца возвести в куб.
-matrix = [
-    [1,2,3],
-    [4,5,6],
-    [7,8,9]
-]
+import random
+matrix = [[random.randint(1,10) for _ in range(3)] for _ in range(3)]
+print("Исходная матрица:")
 for row in matrix:
-    row[0] = row[0] **3
+    print(row)
+for i in range(3):
+    matrix[i][0] = matrix[i][0] ** 3
+print("\n Исходная матрица:")
 for row in matrix:
     print(row)
