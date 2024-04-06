@@ -4,10 +4,7 @@ matrix = [[random.randint(1,20) for _ in range(3)] for _ in range(3)]
 print("Исходная матрица:")
 for row in matrix:
     print(row)
-for i in range(3):
-    for j in range(3):
-        if matrix[i][j] > 10:
-            matrix[i][j] =0
+new_matrix = [[0 if x > 10 else x for x in row] for row in matrix]
 print('\nИтоговая матрица:')
-for row in matrix:
+for row in new_matrix:
     print(row)

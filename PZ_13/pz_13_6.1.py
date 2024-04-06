@@ -4,10 +4,7 @@ matrix = [[random.randint(1,10) for _ in range(3)] for _ in range(3)]
 print("Исходная матрица:")
 for row in matrix:
     print(row)
-for i in range(3):
-    matrix[i][0] = matrix[i][0] ** 3
+new_matrix = [[col **3 if idx == 0 else col for idx,col in enumerate(row)] for row in matrix]
 print("\n Исходная матрица:")
-for row in matrix:
+for row in new_matrix:
     print(row)
-    for row in matrix:
-        print(row)
